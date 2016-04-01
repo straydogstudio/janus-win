@@ -39,13 +39,13 @@ support.
 ## Installation
 
 0. `for %%i IN (vimfiles _vimrc _gvimrc) do IF EXIST "%USERPROFILE%\%%i" call rename "%USERPROFILE%\%%i" %%i.pre-janus`
-1. `git clone git://github.com/fcarriedo/janus-win.git "%USERPROFILE%\vimfiles"`
+1. `git clone git://github.com/straydogstudio/janus-win.git "%USERPROFILE%\vimfiles"`
 2. `cd "%USERPROFILE%\vimfiles"`
 3. `rake`
 
 or
 
-  `curl https://raw.github.com/fcarriedo/janus-win/master/bootstrap.cmd -k -o bootstrap.cmd & bootstrap.cmd`
+  `curl https://raw.github.com/straydogstudio/janus-win/master/bootstrap.cmd -k -o bootstrap.cmd & bootstrap.cmd`
 
 ## Customization
 
